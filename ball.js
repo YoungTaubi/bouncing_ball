@@ -18,10 +18,10 @@ class Ball {
         fill(this.color);
         noStroke();
         ellipse(this.x,this.y,100,100);
-        ellipse(this.x +50,this.y +50,20,20);
-        ellipse(this.x -50,this.y -50,20,20);
-        ellipse(this.x -50,this.y +50,20,20);
-        ellipse(this.x +50,this.y -50,20,20);
+        // ellipse(this.x +50,this.y +50,20,20);
+        // ellipse(this.x -50,this.y -50,20,20);
+        // ellipse(this.x -50,this.y +50,20,20);
+        // ellipse(this.x +50,this.y -50,20,20);
         if (this.jumpingStatus === false) {
             this.velocity += this.gravity 
 		    this.y += this.velocity
